@@ -15,8 +15,8 @@ public class ForgotPassword {
         properties.put("mail.smtp.host","smtp.gmail.com");
         properties.put("mail.smtp.port","587");
 
-        String email = "rohrakaran38@gmail.com";
-        String password = "KARANrohra@";
+        String email = "@gmail.com"; // Enter your own email id
+        String password = ""; // Enter password of sender email id
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
